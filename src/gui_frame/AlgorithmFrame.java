@@ -46,11 +46,21 @@ public class AlgorithmFrame extends JFrame {
      */
     private class AlgorithmCanvas extends JPanel {
 
+        // double buffer
+        public AlgorithmCanvas() {
+            super(true);
+        }
+
         @Override
         public void paintComponent(Graphics g) {
             super.paintComponent(g);
 
             Graphics2D g2d = (Graphics2D) g;
+
+            // anti-aliased
+            RenderingHints hints = new RenderingHints(
+                    RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+            g2d.addRenderingHints(hints);
 
             AlgorithmVisualizationHelper.setStrokeWidth(g2d, 5);
 
