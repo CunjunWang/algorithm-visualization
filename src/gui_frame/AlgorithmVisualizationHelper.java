@@ -32,4 +32,12 @@ public class AlgorithmVisualizationHelper {
         g2d.fill(circle);
     }
 
+    public static void pause(int t) {
+        try {
+            Thread.sleep(t);
+        } catch (InterruptedException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
 }

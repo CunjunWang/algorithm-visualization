@@ -40,6 +40,11 @@ public class AlgorithmFrame extends JFrame {
         return canvasHeight;
     }
 
+    private Circle[] circles;
+    public void render(Circle[] circles) {
+        this.circles = circles;
+        this.repaint();
+    }
 
     /**
      * internal canvas class
@@ -62,14 +67,12 @@ public class AlgorithmFrame extends JFrame {
                     RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
             g2d.addRenderingHints(hints);
 
-            AlgorithmVisualizationHelper.setStrokeWidth(g2d, 5);
-
-            // 基于状态的绘制，设置的红色会保持下去，直到显式改变状态
-            AlgorithmVisualizationHelper.setColor(g2d, Color.BLUE);
-            AlgorithmVisualizationHelper.fillCircle(g2d, canvasWidth / 2, canvasHeight / 2, 200);
-
+            // paint
+            AlgorithmVisualizationHelper.setStrokeWidth(g2d, 1);
             AlgorithmVisualizationHelper.setColor(g2d, Color.RED);
-            AlgorithmVisualizationHelper.strokeCircle(g2d, canvasWidth / 2, canvasHeight / 2, 200);
+
+            for (Circle circle : circles)
+                AlgorithmVisualizationHelper.strokeCircle(g2d, circle.x, circle.y, circle.getR());
         }
 
         @Override
