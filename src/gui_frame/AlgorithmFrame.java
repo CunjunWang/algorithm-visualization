@@ -51,11 +51,6 @@ public class AlgorithmFrame extends JFrame {
      */
     private class AlgorithmCanvas extends JPanel {
 
-        // double buffer
-        public AlgorithmCanvas() {
-            super(true);
-        }
-
         @Override
         public void paintComponent(Graphics g) {
             super.paintComponent(g);
