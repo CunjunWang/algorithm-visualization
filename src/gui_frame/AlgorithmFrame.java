@@ -41,6 +41,7 @@ public class AlgorithmFrame extends JFrame {
     }
 
     private Circle[] circles;
+
     public void render(Circle[] circles) {
         this.circles = circles;
         this.repaint();
@@ -67,7 +68,10 @@ public class AlgorithmFrame extends JFrame {
             AlgorithmVisualizationHelper.setColor(g2d, Color.RED);
 
             for (Circle circle : circles)
-                AlgorithmVisualizationHelper.strokeCircle(g2d, circle.x, circle.y, circle.getR());
+                if (!circle.isFilled)
+                    AlgorithmVisualizationHelper.strokeCircle(g2d, circle.x, circle.y, circle.getR());
+                else
+                    AlgorithmVisualizationHelper.fillCircle(g2d, circle.x, circle.y, circle.getR());
         }
 
         @Override
