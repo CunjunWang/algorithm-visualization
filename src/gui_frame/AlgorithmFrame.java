@@ -1,6 +1,7 @@
 package gui_frame;
 
 import javax.swing.*;
+import java.awt.*;
 
 /**
  * Customized frame to show the algorithm simulation
@@ -21,7 +22,11 @@ public class AlgorithmFrame extends JFrame {
         this.canvasWidth = canvasWidth;
         this.canvasHeight = canvasHeight;
 
-        this.setSize(canvasWidth, canvasHeight);
+        AlgorithmCanvas canvas = new AlgorithmCanvas();
+        // window size can be different with canvas size;
+        this.setContentPane(canvas);
+        pack(); // use this canvas to fill the window.
+
         this.setResizable(false);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);
@@ -31,15 +36,36 @@ public class AlgorithmFrame extends JFrame {
         return canvasWidth;
     }
 
-    public void setCanvasWidth(int canvasWidth) {
-        this.canvasWidth = canvasWidth;
-    }
-
     public int getCanvasHeight() {
         return canvasHeight;
     }
 
-    public void setCanvasHeight(int canvasHeight) {
-        this.canvasHeight = canvasHeight;
+
+    /**
+     * internal canvas class
+     */
+    private class AlgorithmCanvas extends JPanel {
+
+        @Override
+        public void paintComponent(Graphics g) {
+            super.paintComponent(g);
+
+            Graphics2D g2d = (Graphics2D) g;
+
+            AlgorithmVisualizationHelper.setStrokeWidth(g2d, 5);
+
+            // 基于状态的绘制，设置的红色会保持下去，直到显式改变状态
+            AlgorithmVisualizationHelper.setColor(g2d, Color.BLUE);
+            AlgorithmVisualizationHelper.fillCircle(g2d, canvasWidth / 2, canvasHeight / 2, 200);
+
+            AlgorithmVisualizationHelper.setColor(g2d, Color.RED);
+            AlgorithmVisualizationHelper.strokeCircle(g2d, canvasWidth / 2, canvasHeight / 2, 200);
+        }
+
+        @Override
+        public Dimension getPreferredSize() {
+            return new Dimension(canvasWidth, canvasHeight);
+        }
     }
+
 }
