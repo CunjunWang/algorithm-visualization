@@ -1,4 +1,4 @@
-package random_simulation.monte_carlo;
+package random_simulation.monte_carlo.find_pi;
 
 import gui_frame.AlgorithmVisualizationHelper;
 
