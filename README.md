@@ -2,5 +2,5 @@
 ## visualize commonly used algorithms
 
 - Randomized algorithm simulation
-    - Money distribution
+    - Wealth distribution
     - Monte Carlo
