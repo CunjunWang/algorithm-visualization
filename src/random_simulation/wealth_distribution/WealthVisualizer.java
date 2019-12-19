@@ -10,15 +10,15 @@ import java.util.Arrays;
  * <p>
  * Created by CunjunWang on 2019-12-15.
  */
-public class AlgorithmVisualizer {
+public class WealthVisualizer {
 
     private static int DELAY = 40;
     private static int ROUND = 50;
 
     private int[] money;
-    private AlgorithmFrame frame;
+    private WealthFrame frame;
 
-    public AlgorithmVisualizer(int sceneWidth, int sceneHeight) {
+    public WealthVisualizer(int sceneWidth, int sceneHeight) {
 
         money = new int[100];
         for (int i = 0; i < money.length; i++) {
@@ -26,7 +26,7 @@ public class AlgorithmVisualizer {
         }
 
         EventQueue.invokeLater(() -> {
-            frame = new AlgorithmFrame("Money Distribution", sceneWidth, sceneHeight);
+            frame = new WealthFrame("Money Distribution", sceneWidth, sceneHeight);
             new Thread(this::run).start();
         });
     }
@@ -62,7 +62,7 @@ public class AlgorithmVisualizer {
         int sceneWidth = 1000;
         int sceneHeight = 800;
 
-        new AlgorithmVisualizer(sceneWidth, sceneHeight);
+        new WealthVisualizer(sceneWidth, sceneHeight);
     }
 
 }

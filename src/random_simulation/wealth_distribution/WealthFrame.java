@@ -10,12 +10,12 @@ import java.awt.*;
  * <p>
  * Created by CunjunWang on 2019-12-15.
  */
-public class AlgorithmFrame extends JFrame {
+public class WealthFrame extends JFrame {
 
     private int canvasWidth;
     private int canvasHeight;
 
-    public AlgorithmFrame(String title, int canvasWidth, int canvasHeight) {
+    public WealthFrame(String title, int canvasWidth, int canvasHeight) {
         super(title);
 
         if (canvasWidth <= 0 || canvasHeight <= 0)

@@ -21,10 +21,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/random_simulation/wealth_distribution/AlgorithmVisualizer.java">
+        <entry file="file://$PROJECT_DIR$/src/random_simulation/monte_carlo/FindPIFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+            <state relative-caret-position="598">
+              <caret line="80" column="24" lean-forward="true" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,10 +33,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/random_simulation/wealth_distribution/AlgorithmFrame.java">
+        <entry file="file://$PROJECT_DIR$/src/random_simulation/monte_carlo/FindPIVisualizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="77" column="25" lean-forward="true" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="26" />
+            <state relative-caret-position="354">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/random_simulation/monte_carlo/MonteCarloPIData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,10 +77,17 @@
         <option value="$PROJECT_DIR$/src/gui_frame/Circle.java" />
         <option value="$PROJECT_DIR$/src/gui_frame/AlgorithmFrame.java" />
         <option value="$PROJECT_DIR$/src/gui_frame/AlgorithmVisualizer.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/gui_frame/AlgorithmVisualizationHelper.java" />
         <option value="$PROJECT_DIR$/src/random_simulation/wealth_distribution/AlgorithmVisualizer.java" />
         <option value="$PROJECT_DIR$/src/random_simulation/wealth_distribution/AlgorithmFrame.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/random_simulation/monte_carlo/FindPI.java" />
+        <option value="$PROJECT_DIR$/src/random_simulation/monte_carlo/PI.md" />
+        <option value="$PROJECT_DIR$/src/random_simulation/monte_carlo/PI.txt" />
+        <option value="$PROJECT_DIR$/src/random_simulation/monte_carlo/Circle.java" />
+        <option value="$PROJECT_DIR$/src/random_simulation/monte_carlo/MonteCarloPIData.java" />
+        <option value="$PROJECT_DIR$/src/random_simulation/monte_carlo/FindPIFrame.java" />
+        <option value="$PROJECT_DIR$/src/random_simulation/monte_carlo/FindPIVisualizer.java" />
       </list>
     </option>
   </component>
@@ -78,7 +100,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="683" />
+    <option name="x" value="654" />
     <option name="y" value="23" />
     <option name="width" value="997" />
     <option name="height" value="955" />
@@ -90,7 +112,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -108,7 +129,20 @@
               <item name="algorithm-visualization" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm-visualization" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gui_frame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm-visualization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm-visualization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="random_simulation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm-visualization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm-visualization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="random_simulation" type="462c0819:PsiDirectoryNode" />
+              <item name="monte_carlo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm-visualization" type="b2602c69:ProjectViewProjectNode" />
@@ -121,6 +155,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -156,23 +191,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AlgorithmVisualizer (1)">
+  <component name="RunManager" selected="Application.FindPIVisualizer">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlgorithmVisualizer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="random_simulation.wealth_distribution.AlgorithmVisualizer" />
-      <module name="algorithm-visualization" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="random_simulation.wealth_distribution.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -191,6 +212,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FindPIVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="random_simulation.monte_carlo.FindPIVisualizer" />
+      <module name="algorithm-visualization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="random_simulation.monte_carlo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gui_frame.Main" />
       <module name="algorithm-visualization" />
@@ -198,6 +233,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="gui_frame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WealthVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="random_simulation.wealth_distribution.WealthVisualizer" />
+      <module name="algorithm-visualization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="random_simulation.wealth_distribution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,7 +278,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AlgorithmVisualizer (1)" />
+        <item itemvalue="Application.FindPIVisualizer" />
+        <item itemvalue="Application.WealthVisualizer" />
         <item itemvalue="Application.AlgorithmVisualizer" />
         <item itemvalue="Application.Main" />
       </list>
@@ -247,17 +297,18 @@
       <updated>1576423510635</updated>
       <workItem from="1576423512120" duration="7658000" />
       <workItem from="1576783973475" duration="1131000" />
+      <workItem from="1576785531495" duration="2849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8789000" />
+    <option name="totallyTimeSpent" value="11638000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="663" y="23" width="997" height="955" extended-state="0" />
+    <frame x="654" y="23" width="997" height="955" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28691098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29319373" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -351,33 +402,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui_frame/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/gui_frame/AlgorithmVisualizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="17">
-            <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui_frame/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/awt/event/MouseAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
@@ -395,16 +419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui_frame/AlgorithmFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="71" column="26" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/awt/Component.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -412,14 +426,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/random_simulation/wealth_distribution/AlgorithmVisualizationHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/random_simulation/wealth_distribution/AlgorithmVisualizationHelper.java" />
+    <entry file="file://$PROJECT_DIR$/src/gui_frame/AlgorithmVisualizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1019">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="409">
+          <caret line="93" column="5" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="93" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/random_simulation/wealth_distribution/AlgorithmVisualizer.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="85">
+            <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/random_simulation/monte_carlo/PI.txt">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="170">
+            <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/random_simulation/wealth_distribution/WealthFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="77" column="25" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/random_simulation/wealth_distribution/WealthVisualizer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
           <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
@@ -429,10 +474,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/random_simulation/wealth_distribution/AlgorithmFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/gui_frame/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="77" column="25" lean-forward="true" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="26" />
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/random_simulation/monte_carlo/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="78" selection-start-line="30" selection-start-column="78" selection-end-line="30" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui_frame/AlgorithmFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/random_simulation/monte_carlo/FindPIFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="80" column="24" lean-forward="true" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/random_simulation/monte_carlo/MonteCarloPIData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/random_simulation/monte_carlo/FindPIVisualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
