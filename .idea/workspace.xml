@@ -54,7 +54,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="119">
-                <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+                <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
               </first_editor>
               <second_editor />
             </state>
@@ -62,10 +62,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/random_simulation/monte_carlo/monty_hall/MontyHall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/random_simulation/monte_carlo/MonteCarlo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+            <state relative-caret-position="307">
+              <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,8 +125,9 @@
         <option value="$PROJECT_DIR$/src/random_simulation/monte_carlo/MonteCarloPIData.java" />
         <option value="$PROJECT_DIR$/src/random_simulation/monte_carlo/FindPIFrame.java" />
         <option value="$PROJECT_DIR$/src/random_simulation/monte_carlo/FindPIVisualizer.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/random_simulation/monte_carlo/MonteCarlo.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/random_simulation/monte_carlo/monty_hall/MontyHall.java" />
       </list>
     </option>
   </component>
@@ -168,6 +178,14 @@
               <item name="random_simulation" type="462c0819:PsiDirectoryNode" />
               <item name="monte_carlo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="algorithm-visualization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm-visualization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="random_simulation" type="462c0819:PsiDirectoryNode" />
+              <item name="monte_carlo" type="462c0819:PsiDirectoryNode" />
+              <item name="monty_hall" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -209,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MonteCarlo">
+  <component name="RunManager" selected="Application.MontyHall">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -244,20 +262,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gui_frame.Main" />
-      <module name="algorithm-visualization" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gui_frame.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MonteCarlo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="random_simulation.monte_carlo.MonteCarlo" />
       <module name="algorithm-visualization" />
@@ -265,6 +269,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="random_simulation.monte_carlo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MontyHall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="random_simulation.monte_carlo.monty_hall.MontyHall" />
+      <module name="algorithm-visualization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="random_simulation.monte_carlo.monty_hall.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -310,11 +328,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MontyHall" />
         <item itemvalue="Application.MonteCarlo" />
         <item itemvalue="Application.FindPIVisualizer" />
         <item itemvalue="Application.WealthVisualizer" />
         <item itemvalue="Application.AlgorithmVisualizer" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -330,12 +348,12 @@
       <updated>1576423510635</updated>
       <workItem from="1576423512120" duration="7658000" />
       <workItem from="1576783973475" duration="1131000" />
-      <workItem from="1576785531495" duration="3354000" />
+      <workItem from="1576785531495" duration="4251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12143000" />
+    <option name="totallyTimeSpent" value="13040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="574" y="23" width="997" height="955" extended-state="0" />
@@ -350,12 +368,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3293979" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3293979" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3293979" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293979" />
       <window_info anchor="bottom" id="Docker" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3293979" />
@@ -552,23 +570,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/random_simulation/monte_carlo/MonteCarlo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="119">
-            <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/random_simulation/monte_carlo/MonteCarlo.java">
+    <entry file="file://$PROJECT_DIR$/src/random_simulation/monte_carlo/monty_hall/MontyHall.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="406">
+          <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
         </state>
       </provider>
     </entry>
