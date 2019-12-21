@@ -15,3 +15,4 @@
         - [Two Way Quick Sort](src/sortings/quick_sort/two_way_quick_sort)
         - [Three Way Quick Sort](src/sortings/quick_sort/three_way_quick_sort)
     - [Heap Sort](src/sortings/heap_sort)
+- Maze Solver
