@@ -1,9 +1,9 @@
-package sortings.quick_sort.two_way_quick_sort;
+package sortings.quick_sort.three_way_quick_sort;
 
 /**
  * Created by CunjunWang on 2019-12-21.
  */
-public class TwoWayQuickSortData {
+public class ThreeWayQuickSortData {
 
     private int[] numbers;
 
@@ -15,7 +15,7 @@ public class TwoWayQuickSortData {
 
     public boolean[] fixedPivot;
 
-    public TwoWayQuickSortData(int N, int randomBound) {
+    public ThreeWayQuickSortData(int N, int randomBound) {
         numbers = new int[N];
         fixedPivot = new boolean[N];
 
