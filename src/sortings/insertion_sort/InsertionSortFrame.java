@@ -1,4 +1,4 @@
-package sortings.selection_sort;
+package sortings.insertion_sort;
 
 import gui_frame.AlgorithmVisualizationHelper;
 
@@ -8,12 +8,12 @@ import java.awt.*;
 /**
  * Created by CunjunWang on 2019-12-20.
  */
-public class SelectionSortFrame extends JFrame {
+public class InsertionSortFrame extends JFrame {
 
     private int canvasWidth;
     private int canvasHeight;
 
-    public SelectionSortFrame(String title, int canvasWidth, int canvasHeight) {
+    public InsertionSortFrame(String title, int canvasWidth, int canvasHeight) {
         super(title);
 
         if (canvasWidth <= 0 || canvasHeight <= 0)
@@ -22,7 +22,7 @@ public class SelectionSortFrame extends JFrame {
         this.canvasWidth = canvasWidth;
         this.canvasHeight = canvasHeight;
 
-        AlgorithmCanvas canvas = new AlgorithmCanvas();
+        InsertionSortFrame.AlgorithmCanvas canvas = new InsertionSortFrame.AlgorithmCanvas();
         // window size can be different with canvas size;
         this.setContentPane(canvas);
         pack(); // use this canvas to fill the window.
@@ -40,9 +40,9 @@ public class SelectionSortFrame extends JFrame {
         return canvasHeight;
     }
 
-    private SelectionSortData data;
+    private InsertionSortData data;
 
-    public void render(SelectionSortData data) {
+    public void render(InsertionSortData data) {
         this.data = data;
         this.repaint();
     }
@@ -71,11 +71,8 @@ public class SelectionSortFrame extends JFrame {
                 else
                     AlgorithmVisualizationHelper.setColor(g2d, AlgorithmVisualizationHelper.Grey);
 
-                if (i == data.currentCompareIndex)
+                if (i == data.currentIndex)
                     AlgorithmVisualizationHelper.setColor(g2d, AlgorithmVisualizationHelper.LightBlue);
-
-                if (i == data.currentMinIndex)
-                    AlgorithmVisualizationHelper.setColor(g2d, AlgorithmVisualizationHelper.Indigo);
 
                 AlgorithmVisualizationHelper.fillRectangle(g2d, i * w, canvasHeight - data.get(i), w - 1, data.get(i));
             }

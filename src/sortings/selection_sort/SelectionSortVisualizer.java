@@ -5,9 +5,7 @@ import gui_frame.AlgorithmVisualizationHelper;
 import java.awt.*;
 
 /**
- * MVC - Controller
- * <p>
- * Created by CunjunWang on 2019-12-15.
+ * Created by CunjunWang on 2019-12-20.
  */
 public class SelectionSortVisualizer {
 
