@@ -1,4 +1,4 @@
-package maze_solver;
+package maze_solver.data;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -12,6 +12,9 @@ import java.util.Scanner;
  * Created by CunjunWang on 2019-12-22.
  */
 public class MazeData {
+
+    public static final char ROAD = ' ';
+    public static final char WALL = '#';
 
     private int R, C;
     private char[][] maze;
@@ -39,8 +42,8 @@ public class MazeData {
                 // System.out.println("Processing line " + (i + 1));
                 String line = scanner.nextLine();
 
-                if (line.length() != C)
-                    throw new IllegalArgumentException("Invalid line of data");
+                 if (line.length() != C)
+                     throw new IllegalArgumentException("Invalid line of data");
 
                 for (int j = 0; j < C; j++)
                     maze[i][j] = line.charAt(j);
@@ -57,7 +60,7 @@ public class MazeData {
         return R;
     }
 
-    public int getM() {
+    public int getC() {
         return C;
     }
 
