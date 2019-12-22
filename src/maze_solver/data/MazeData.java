@@ -15,9 +15,17 @@ public class MazeData {
 
     public static final char ROAD = ' ';
     public static final char WALL = '#';
+    public static final char START = 's';
+    public static final char END = 'd';
 
     private int R, C;
     private char[][] maze;
+
+    private int entranceR, entranceC;
+    private int exitR, exitC;
+
+    public boolean[][] visited;
+    public boolean[][] onPath;
 
     public MazeData(String filename) {
         if (filename == null)
@@ -38,12 +46,15 @@ public class MazeData {
             C = Integer.parseInt(size[1]);
 
             maze = new char[R][C];
+            visited = new boolean[R][C];
+            onPath = new boolean[R][C];
+
             for (int i = 0; i < R; i++) {
                 // System.out.println("Processing line " + (i + 1));
                 String line = scanner.nextLine();
 
-                 if (line.length() != C)
-                     throw new IllegalArgumentException("Invalid line of data");
+                if (line.length() != C)
+                    throw new IllegalArgumentException("Invalid line of data");
 
                 for (int j = 0; j < C; j++)
                     maze[i][j] = line.charAt(j);
@@ -54,6 +65,11 @@ public class MazeData {
             if (scanner != null)
                 scanner.close();
         }
+
+        entranceR = 1;
+        entranceC = 0;
+        exitR = R - 2;
+        exitC = C - 1;
     }
 
     public int getR() {
@@ -62,6 +78,22 @@ public class MazeData {
 
     public int getC() {
         return C;
+    }
+
+    public int getEntranceR() {
+        return entranceR;
+    }
+
+    public int getEntranceC() {
+        return entranceC;
+    }
+
+    public int getExitR() {
+        return exitR;
+    }
+
+    public int getExitC() {
+        return exitC;
     }
 
     public char getMaze(int i, int j) {
