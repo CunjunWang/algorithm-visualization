@@ -34,32 +34,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/maze_solver/dfs/iterative/IterativeDFSMazeSolverVisualizer.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/maze_solver/bfs/BFSMazeSolverVisualizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="80" column="9" lean-forward="true" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+            <state relative-caret-position="731">
+              <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/maze_solver/data/MazeSolverFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="79" column="101" selection-start-line="79" selection-start-column="101" selection-end-line="79" selection-end-column="101" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/maze_solver/data/MazeData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -79,8 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/random_simulation/monte_carlo/PI.txt" />
-        <option value="$PROJECT_DIR$/src/random_simulation/monte_carlo/Circle.java" />
         <option value="$PROJECT_DIR$/src/random_simulation/monte_carlo/MonteCarloPIData.java" />
         <option value="$PROJECT_DIR$/src/random_simulation/monte_carlo/FindPIFrame.java" />
         <option value="$PROJECT_DIR$/src/random_simulation/monte_carlo/FindPIVisualizer.java" />
@@ -130,6 +110,8 @@
         <option value="$PROJECT_DIR$/src/maze_solver/data/MazeData.java" />
         <option value="$PROJECT_DIR$/src/maze_solver/dfs/iterative/IterativeDFSMazeSolverVisualizer.java" />
         <option value="$PROJECT_DIR$/src/maze_solver/data/MazeSolverFrame.java" />
+        <option value="$PROJECT_DIR$/src/maze_solver/bfs/IterativeDFSMazeSolverVisualizer.java" />
+        <option value="$PROJECT_DIR$/src/maze_solver/bfs/BFSMazeSolverVisualizer.java" />
       </list>
     </option>
   </component>
@@ -171,13 +153,6 @@
               <item name="algorithm-visualization" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="maze_solver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm-visualization" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm-visualization" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="maze_solver" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm-visualization" type="b2602c69:ProjectViewProjectNode" />
@@ -235,19 +210,20 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/random_simulation/monte_carlo/find_pi" />
+      <recent name="$PROJECT_DIR$/src/gui_frame" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="maze_solver.bfs" />
+      <recent name="maze_solver.dfs.iterative" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/sortings/heap_sort" />
       <recent name="$PROJECT_DIR$/src/sortings/quick_sort/three_way_quick_sort" />
       <recent name="$PROJECT_DIR$/src/sortings/quick_sort/two_way_quick_sort" />
       <recent name="$PROJECT_DIR$/src/sortings/selection_sort" />
       <recent name="$PROJECT_DIR$/src/random_simulation/wealth_distribution" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="maze_solver.dfs.iterative" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/random_simulation/monte_carlo/find_pi" />
-      <recent name="$PROJECT_DIR$/src/gui_frame" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -262,20 +238,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IterativeDFSMazeSolverVisualizer">
+  <component name="RunManager" selected="Application.BFSMazeSolverVisualizer">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSortVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sortings.heap_sort.HeapSortVisualizer" />
+    <configuration name="BFSMazeSolverVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maze_solver.bfs.BFSMazeSolverVisualizer" />
       <module name="algorithm-visualization" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sortings.heap_sort.*" />
+          <option name="PATTERN" value="maze_solver.bfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -363,11 +339,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BFSMazeSolverVisualizer" />
         <item itemvalue="Application.IterativeDFSMazeSolverVisualizer" />
         <item itemvalue="Application.RecursiveDFSMazeSolverVisualizer" />
         <item itemvalue="Application.MazeSolverVisualizer" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.HeapSortVisualizer" />
       </list>
     </recent_temporary>
   </component>
@@ -391,16 +367,15 @@
       <workItem from="1577027071508" duration="1747000" />
       <workItem from="1577029436737" duration="47000" />
       <workItem from="1577029546005" duration="2728000" />
-      <workItem from="1577117543862" duration="1766000" />
+      <workItem from="1577117543862" duration="2282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31235000" />
+    <option name="totallyTimeSpent" value="31751000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="690" y="23" width="987" height="951" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22222222" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -443,13 +418,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/awt/event/MouseAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="75" selection-start-line="75" selection-end-line="78" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/gui_frame/AlgorithmVisualizationHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -789,6 +757,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze_solver/data/MazeSolverFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/maze_solver/data/MazeData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
@@ -806,10 +781,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/maze_solver/data/MazeSolverFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/maze_solver/bfs/BFSMazeSolverVisualizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="79" column="101" selection-start-line="79" selection-start-column="101" selection-end-line="79" selection-end-column="101" />
+        <state relative-caret-position="731">
+          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
