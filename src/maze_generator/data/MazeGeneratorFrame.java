@@ -1,4 +1,4 @@
-package maze_generator;
+package maze_generator.data;
 
 import gui_frame.AlgorithmVisualizationHelper;
 
