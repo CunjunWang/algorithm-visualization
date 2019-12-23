@@ -3,7 +3,7 @@ package maze_solver.bfs;
 import gui_frame.AlgorithmVisualizationHelper;
 import maze_solver.data.MazeData;
 import maze_solver.data.MazeSolverFrame;
-import maze_solver.dfs.iterative.Point;
+import maze_solver.data.Point;
 
 import java.awt.*;
 import java.util.LinkedList;

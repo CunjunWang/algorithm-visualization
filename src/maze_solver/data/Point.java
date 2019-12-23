@@ -1,4 +1,4 @@
-package maze_solver.dfs.iterative;
+package maze_solver.data;
 
 /**
  * Created by CunjunWang on 2019-12-23.

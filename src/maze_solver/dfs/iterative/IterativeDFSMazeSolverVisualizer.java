@@ -3,6 +3,7 @@ package maze_solver.dfs.iterative;
 import gui_frame.AlgorithmVisualizationHelper;
 import maze_solver.data.MazeData;
 import maze_solver.data.MazeSolverFrame;
+import maze_solver.data.Point;
 
 import java.awt.*;
 import java.util.Stack;
@@ -39,14 +40,14 @@ public class IterativeDFSMazeSolverVisualizer {
     private void run() {
         setData(-1, -1, false);
 
-        Stack<Point> stack = new Stack<Point>();
-        stack.push(new Point(data.getEntranceR(), data.getEntranceC()));
+        Stack<maze_solver.data.Point> stack = new Stack<maze_solver.data.Point>();
+        stack.push(new maze_solver.data.Point(data.getEntranceR(), data.getEntranceC()));
         data.visited[data.getEntranceR()][data.getEntranceC()] = true;
 
         boolean solved = false;
 
         while (!stack.empty()) {
-            Point cur = stack.pop();
+            maze_solver.data.Point cur = stack.pop();
             setData(cur.getR(), cur.getC(), true);
 
             if (cur.getR() == data.getExitR() && cur.getC() == data.getExitC()) {
@@ -61,7 +62,7 @@ public class IterativeDFSMazeSolverVisualizer {
 
                 if (data.inArea(nextR, nextC) && !data.visited[nextR][nextC]
                         && (data.getMaze(nextR, nextC) == MazeData.ROAD || data.getMaze(nextR, nextC) == MazeData.END)) {
-                    stack.push(new Point(nextR, nextC, cur));
+                    stack.push(new maze_solver.data.Point(nextR, nextC, cur));
                     data.visited[nextR][nextC] = true;
                 }
             }
@@ -73,7 +74,7 @@ public class IterativeDFSMazeSolverVisualizer {
         setData(-1, -1, false);
     }
 
-    private void findPath(Point des) {
+    private void findPath(maze_solver.data.Point des) {
         Point cur = des;
         while (cur != null) {
             data.result[cur.getR()][cur.getC()] = true;
