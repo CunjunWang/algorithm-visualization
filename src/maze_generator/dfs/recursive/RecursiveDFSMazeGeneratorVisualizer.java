@@ -27,7 +27,7 @@ public class RecursiveDFSMazeGeneratorVisualizer {
         int sceneWidth = data.getM() * blockSide;
 
         EventQueue.invokeLater(() -> {
-            frame = new MazeGeneratorFrame("Recursive DFS Random Maze Generator", sceneWidth, sceneHeight);
+            frame = new MazeGeneratorFrame("Recursive DFS Maze Generator", sceneWidth, sceneHeight);
             new Thread(this::run).start();
         });
     }

@@ -1,4 +1,4 @@
-package maze_generator;
+package maze_generator.random;
 
 import java.util.ArrayList;
 

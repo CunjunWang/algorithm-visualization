@@ -25,3 +25,4 @@
         - [Recursive](src/maze_generator/dfs/recursive)
         - [Iterative](src/maze_generator/dfs/iterative)
     - [BFS Generator](src/maze_generator/bfs)
+    - [Random Generator](src/maze_generator/random)

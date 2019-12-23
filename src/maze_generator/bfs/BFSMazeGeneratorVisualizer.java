@@ -1,12 +1,13 @@
 package maze_generator.bfs;
 
 import gui_frame.AlgorithmVisualizationHelper;
-import maze_generator.RandomQueue;
 import maze_generator.data.MazeData;
 import maze_generator.data.MazeGeneratorFrame;
 import maze_generator.data.Point;
 
 import java.awt.*;
+import java.util.LinkedList;
+import java.util.Queue;
 
 /**
  * Created by CunjunWang on 2019-12-23.
@@ -29,7 +30,7 @@ public class BFSMazeGeneratorVisualizer {
         int sceneWidth = data.getM() * blockSide;
 
         EventQueue.invokeLater(() -> {
-            frame = new MazeGeneratorFrame("Recursive DFS Random Maze Generator", sceneWidth, sceneHeight);
+            frame = new MazeGeneratorFrame("BFS Maze Generator", sceneWidth, sceneHeight);
             new Thread(this::run).start();
         });
     }
@@ -40,13 +41,13 @@ public class BFSMazeGeneratorVisualizer {
     private void run() {
         setData(-1, -1);
 
-        RandomQueue<Point> queue = new RandomQueue<>();
+        Queue<Point> queue = new LinkedList<>();
         Point first = new Point(data.getEntranceX(), data.getEntranceY() + 1);
         queue.add(first);
         data.visited[first.getX()][first.getY()] = true;
 
         while (!queue.isEmpty()) {
-            Point cur = queue.remove();
+            Point cur = queue.poll();
 
             for (int d = 0; d < 4; d++) {
                 int nextX = cur.getX() + dir[d][0] * 2;

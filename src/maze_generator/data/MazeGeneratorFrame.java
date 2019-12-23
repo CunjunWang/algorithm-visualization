@@ -69,10 +69,15 @@ public class MazeGeneratorFrame extends JFrame {
 
             for (int i = 0; i < data.getN(); i++)
                 for (int j = 0; j < data.getM(); j++) {
-                    if (data.maze[i][j] == MazeData.WALL)
-                        AlgorithmVisualizationHelper.setColor(g2d, AlgorithmVisualizationHelper.LightBlue);
-                    else
-                        AlgorithmVisualizationHelper.setColor(g2d, AlgorithmVisualizationHelper.White);
+
+                    if (data.inMist[i][j])
+                        AlgorithmVisualizationHelper.setColor(g2d, AlgorithmVisualizationHelper.Black);
+                    else {
+                        if (data.maze[i][j] == MazeData.WALL)
+                            AlgorithmVisualizationHelper.setColor(g2d, AlgorithmVisualizationHelper.LightBlue);
+                        else
+                            AlgorithmVisualizationHelper.setColor(g2d, AlgorithmVisualizationHelper.White);
+                    }
 
                     AlgorithmVisualizationHelper.fillRectangle(g2d, j * w, i * h, w, h);
                 }

@@ -33,7 +33,41 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/maze_generator/random/RandomMazeGeneratorVisualizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/maze_generator/data/MazeGeneratorFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/maze_generator/data/MazeData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="83" column="41" lean-forward="true" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,8 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sortings/merge_sort/MergeSortFrame.java" />
-        <option value="$PROJECT_DIR$/src/sortings/insertion_sort/InsertionSortVisualizer.java" />
         <option value="$PROJECT_DIR$/src/sortings/merge_sort/MergeSortData.java" />
         <option value="$PROJECT_DIR$/src/sortings/merge_sort/MergeSortVisualizer.java" />
         <option value="$PROJECT_DIR$/src/sortings/quick_sort/QuickSortData.java" />
@@ -90,15 +122,17 @@
         <option value="$PROJECT_DIR$/src/maze_generator/MazeGeneratorVisualizer.java" />
         <option value="$PROJECT_DIR$/src/maze_generator/dfs/MazeGeneratorVisualizer.java" />
         <option value="$PROJECT_DIR$/src/maze_generator/dfs/recursive/MazeGeneratorVisualizer.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/maze_generator/data/MazeData.java" />
-        <option value="$PROJECT_DIR$/src/maze_generator/dfs/recursive/RecursiveDFSMazeGeneratorVisualizer.java" />
         <option value="$PROJECT_DIR$/src/maze_generator/dfs/iterative/RecursiveDFSMazeGeneratorVisualizer.java" />
         <option value="$PROJECT_DIR$/src/maze_generator/dfs/iterative/Point.java" />
-        <option value="$PROJECT_DIR$/src/maze_generator/dfs/iterative/IterativeDFSMazeGeneratorVisualizer.java" />
         <option value="$PROJECT_DIR$/src/maze_generator/bfs/IterativeDFSMazeGeneratorVisualizer.java" />
-        <option value="$PROJECT_DIR$/src/maze_generator/bfs/BFSMazeGeneratorVisualizer.java" />
         <option value="$PROJECT_DIR$/src/maze_generator/RandomQueue.java" />
+        <option value="$PROJECT_DIR$/src/maze_generator/dfs/recursive/RecursiveDFSMazeGeneratorVisualizer.java" />
+        <option value="$PROJECT_DIR$/src/maze_generator/dfs/iterative/IterativeDFSMazeGeneratorVisualizer.java" />
+        <option value="$PROJECT_DIR$/src/maze_generator/bfs/BFSMazeGeneratorVisualizer.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/maze_generator/data/MazeGeneratorFrame.java" />
+        <option value="$PROJECT_DIR$/src/maze_generator/data/MazeData.java" />
+        <option value="$PROJECT_DIR$/src/maze_generator/random/RandomMazeGeneratorVisualizer.java" />
       </list>
     </option>
   </component>
@@ -140,6 +174,20 @@
               <item name="algorithm-visualization" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="maze_generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm-visualization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm-visualization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="maze_generator" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm-visualization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm-visualization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="maze_generator" type="462c0819:PsiDirectoryNode" />
+              <item name="random" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BFSMazeGeneratorVisualizer">
+  <component name="RunManager" selected="Application.RandomMazeGeneratorVisualizer">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -245,13 +293,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IterativeDFSMazeSolverVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="maze_solver.dfs.iterative.IterativeDFSMazeSolverVisualizer" />
+    <configuration name="RandomMazeGeneratorVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maze_generator.random.RandomMazeGeneratorVisualizer" />
       <module name="algorithm-visualization" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="maze_solver.data.*" />
+          <option name="PATTERN" value="maze_generator.random.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -297,11 +345,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RandomMazeGeneratorVisualizer" />
         <item itemvalue="Application.BFSMazeGeneratorVisualizer" />
         <item itemvalue="Application.IterativeDFSMazeGeneratorVisualizer" />
         <item itemvalue="Application.RecursiveDFSMazeGeneratorVisualizer" />
         <item itemvalue="Application.BFSMazeSolverVisualizer" />
-        <item itemvalue="Application.IterativeDFSMazeSolverVisualizer" />
       </list>
     </recent_temporary>
   </component>
@@ -327,15 +375,16 @@
       <workItem from="1577029546005" duration="2728000" />
       <workItem from="1577117543862" duration="3231000" />
       <workItem from="1577121503756" duration="2255000" />
-      <workItem from="1577123794808" duration="499000" />
+      <workItem from="1577123794808" duration="1216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35454000" />
+    <option name="totallyTimeSpent" value="36171000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="693" y="23" width="987" height="951" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23068783" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -346,12 +395,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32858837" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32858837" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33096084" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33096084" />
       <window_info anchor="bottom" id="Docker" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32858837" />
@@ -378,16 +427,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/random_simulation/monte_carlo/find_pi/MonteCarloPIData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/random_simulation/monte_carlo/BinomialSimulation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
@@ -672,55 +711,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/maze_generator/data/MazeGeneratorFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/maze_generator/data/initialize.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="442">
-            <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/maze_generator/dfs/iterative/IterativeDFSMazeGeneratorVisualizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/maze_generator/bfs/BFSMazeGeneratorVisualizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/maze_generator/data/MazeData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/maze_generator/data/Point.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -731,18 +726,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/maze_generator/dfs/recursive/RecursiveDFSMazeGeneratorVisualizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+        <state relative-caret-position="342">
+          <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/maze_generator/RandomQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/maze_generator/dfs/iterative/IterativeDFSMazeGeneratorVisualizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+        <state relative-caret-position="250">
+          <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze_generator/bfs/BFSMazeGeneratorVisualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze_generator/random/RandomQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="455">
+            <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze_generator/data/MazeGeneratorFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze_generator/data/MazeData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="83" column="41" lean-forward="true" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze_generator/random/RandomMazeGeneratorVisualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
