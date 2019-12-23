@@ -27,7 +27,7 @@ public class RecursiveDFSMazeSolverVisualizer {
         int sceneWidth = data.getC() * blockSide;
 
         EventQueue.invokeLater(() -> {
-            frame = new MazeSolverFrame("Maze Solver", sceneWidth, sceneHeight);
+            frame = new MazeSolverFrame("Recursive DFS Maze Solver", sceneWidth, sceneHeight);
             new Thread(this::run).start();
         });
     }

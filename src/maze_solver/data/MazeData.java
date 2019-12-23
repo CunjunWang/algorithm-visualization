@@ -26,6 +26,7 @@ public class MazeData {
 
     public boolean[][] visited;
     public boolean[][] onPath;
+    public boolean[][] result;
 
     public MazeData(String filename) {
         if (filename == null)
@@ -48,6 +49,7 @@ public class MazeData {
             maze = new char[R][C];
             visited = new boolean[R][C];
             onPath = new boolean[R][C];
+            result = new boolean[R][C];
 
             for (int i = 0; i < R; i++) {
                 // System.out.println("Processing line " + (i + 1));

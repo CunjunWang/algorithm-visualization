@@ -76,6 +76,9 @@ public class MazeSolverFrame extends JFrame {
                     if (data.onPath[i][j])
                         AlgorithmVisualizationHelper.setColor(g2d, AlgorithmVisualizationHelper.Yellow);
 
+                    if (data.result[i][j])
+                        AlgorithmVisualizationHelper.setColor(g2d, AlgorithmVisualizationHelper.Red);
+
                     AlgorithmVisualizationHelper.fillRectangle(g2d, j * w, i * h, w, h);
                 }
         }
