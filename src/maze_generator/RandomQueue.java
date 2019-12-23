@@ -28,7 +28,7 @@ public class RandomQueue<E> {
      * @return removed element
      */
     public E remove() {
-        if (!queue.isEmpty())
+        if (queue.isEmpty())
             throw new IllegalArgumentException("Queue is already empty");
 
         // randomly pick an element
