@@ -20,3 +20,4 @@
         - [Recursive](src/maze_solver/dfs/recursive)
         - [Iterative](src/maze_solver/dfs/iterative)
     - [BFS Solver](src/maze_solver/bfs)
+- Maze Generator
