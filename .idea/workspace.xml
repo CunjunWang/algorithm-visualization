@@ -34,11 +34,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/maze_game/MazeGameFrame.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/maze_game/RandomQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/maze_game/MazeGameVisualizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-35">
+              <caret line="103" column="21" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/maze_generator/random/RandomMazeGeneratorVisualizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="265">
+              <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/src/maze_generator/data/MazeData.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="83" column="41" lean-forward="true" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
+              <caret line="83" column="41" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -82,12 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sortings/merge_sort/MergeSortData.java" />
-        <option value="$PROJECT_DIR$/src/sortings/merge_sort/MergeSortVisualizer.java" />
-        <option value="$PROJECT_DIR$/src/sortings/quick_sort/QuickSortData.java" />
-        <option value="$PROJECT_DIR$/src/sortings/quick_sort/QuickSortFrame.java" />
-        <option value="$PROJECT_DIR$/src/sortings/quick_sort/QuickSortVisualizer.java" />
-        <option value="$PROJECT_DIR$/src/sortings/quick_sort/randomized_quick_sort/QuickSortVisualizer.java" />
         <option value="$PROJECT_DIR$/src/sortings/quick_sort/two_way_quick_sort/QuickSortData.java" />
         <option value="$PROJECT_DIR$/src/sortings/quick_sort/two_way_quick_sort/TwoWayQuickSortFrame.java" />
         <option value="$PROJECT_DIR$/src/sortings/quick_sort/two_way_quick_sort/TwoWayQuickSortVisualizer.java" />
@@ -129,10 +149,16 @@
         <option value="$PROJECT_DIR$/src/maze_generator/dfs/recursive/RecursiveDFSMazeGeneratorVisualizer.java" />
         <option value="$PROJECT_DIR$/src/maze_generator/dfs/iterative/IterativeDFSMazeGeneratorVisualizer.java" />
         <option value="$PROJECT_DIR$/src/maze_generator/bfs/BFSMazeGeneratorVisualizer.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/maze_generator/data/MazeGeneratorFrame.java" />
         <option value="$PROJECT_DIR$/src/maze_generator/data/MazeData.java" />
         <option value="$PROJECT_DIR$/src/maze_generator/random/RandomMazeGeneratorVisualizer.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/maze_game/MazeSolverFrame.java" />
+        <option value="$PROJECT_DIR$/src/maze_game/RandomMazeGeneratorVisualizer.java" />
+        <option value="$PROJECT_DIR$/src/maze_game/RandomQueue.java" />
+        <option value="$PROJECT_DIR$/src/maze_game/Point.java" />
+        <option value="$PROJECT_DIR$/src/maze_game/MazeData.java" />
+        <option value="$PROJECT_DIR$/src/maze_game/MazeGameVisualizer.java" />
       </list>
     </option>
   </component>
@@ -145,8 +171,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="693" />
-    <option name="y" value="23" />
+    <option name="x" value="697" />
+    <option name="y" value="24" />
     <option name="width" value="987" />
     <option name="height" value="951" />
   </component>
@@ -173,21 +199,7 @@
               <item name="algorithm-visualization" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm-visualization" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="maze_generator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm-visualization" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm-visualization" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="maze_generator" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm-visualization" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm-visualization" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="maze_generator" type="462c0819:PsiDirectoryNode" />
-              <item name="random" type="462c0819:PsiDirectoryNode" />
+              <item name="maze_game" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -202,7 +214,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sortings/heap_sort" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/maze_game" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -211,25 +223,25 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/sortings/heap_sort" />
-      <recent name="$PROJECT_DIR$/src/sortings/quick_sort/three_way_quick_sort" />
-      <recent name="$PROJECT_DIR$/src/sortings/quick_sort/two_way_quick_sort" />
-      <recent name="$PROJECT_DIR$/src/sortings/selection_sort" />
-      <recent name="$PROJECT_DIR$/src/random_simulation/wealth_distribution" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="maze_generator.bfs" />
-      <recent name="maze_generator.dfs.iterative" />
-      <recent name="maze_generator" />
-      <recent name="maze_solver.bfs" />
-      <recent name="maze_solver.dfs.iterative" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/maze_generator/data" />
       <recent name="$PROJECT_DIR$/src/maze_generator" />
       <recent name="$PROJECT_DIR$/src/random_simulation/monte_carlo/find_pi" />
       <recent name="$PROJECT_DIR$/src/gui_frame" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="maze_game" />
+      <recent name="maze_generator.bfs" />
+      <recent name="maze_generator.dfs.iterative" />
+      <recent name="maze_generator" />
+      <recent name="maze_solver.bfs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/maze_game" />
+      <recent name="$PROJECT_DIR$/src/sortings/heap_sort" />
+      <recent name="$PROJECT_DIR$/src/sortings/quick_sort/three_way_quick_sort" />
+      <recent name="$PROJECT_DIR$/src/sortings/quick_sort/two_way_quick_sort" />
+      <recent name="$PROJECT_DIR$/src/sortings/selection_sort" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -244,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RandomMazeGeneratorVisualizer">
+  <component name="RunManager" selected="Application.MazeGameVisualizer">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -265,20 +277,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BFSMazeSolverVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="maze_solver.bfs.BFSMazeSolverVisualizer" />
-      <module name="algorithm-visualization" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="maze_solver.bfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="IterativeDFSMazeGeneratorVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="maze_generator.dfs.iterative.IterativeDFSMazeGeneratorVisualizer" />
       <module name="algorithm-visualization" />
@@ -286,6 +284,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="maze_generator.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MazeGameVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maze_game.MazeGameVisualizer" />
+      <module name="algorithm-visualization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="maze_game.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -345,11 +357,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MazeGameVisualizer" />
         <item itemvalue="Application.RandomMazeGeneratorVisualizer" />
         <item itemvalue="Application.BFSMazeGeneratorVisualizer" />
         <item itemvalue="Application.IterativeDFSMazeGeneratorVisualizer" />
         <item itemvalue="Application.RecursiveDFSMazeGeneratorVisualizer" />
-        <item itemvalue="Application.BFSMazeSolverVisualizer" />
       </list>
     </recent_temporary>
   </component>
@@ -375,15 +387,15 @@
       <workItem from="1577029546005" duration="2728000" />
       <workItem from="1577117543862" duration="3231000" />
       <workItem from="1577121503756" duration="2255000" />
-      <workItem from="1577123794808" duration="1216000" />
+      <workItem from="1577123794808" duration="2478000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36171000" />
+    <option name="totallyTimeSpent" value="37433000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="693" y="23" width="987" height="951" extended-state="0" />
+    <frame x="697" y="24" width="987" height="951" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23068783" />
@@ -427,51 +439,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/random_simulation/monte_carlo/BinomialSimulation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/random_simulation/monte_carlo/monty_hall/MontyHall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/random_simulation/monte_carlo/find_pi/PI.txt">
-      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="170">
-            <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/random_simulation/monte_carlo/find_pi/FindPIVisualizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/random_simulation/monte_carlo/find_pi/FindPIFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="80" column="24" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/gui_frame/graphics2d.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -758,16 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="455">
-            <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/maze_generator/data/MazeGeneratorFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -781,14 +738,58 @@
     <entry file="file://$PROJECT_DIR$/src/maze_generator/data/MazeData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="83" column="41" lean-forward="true" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
+          <caret line="83" column="41" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/maze_generator/random/RandomMazeGeneratorVisualizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="265">
+          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="420">
+            <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze_game/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze_game/MazeGameFrame.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze_game/RandomQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze_game/MazeData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze_game/MazeGameVisualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-35">
+          <caret line="103" column="21" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

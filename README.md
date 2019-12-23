@@ -26,3 +26,5 @@
         - [Iterative](src/maze_generator/dfs/iterative)
     - [BFS Generator](src/maze_generator/bfs)
     - [Random Generator](src/maze_generator/random)
+- [Maze Game](src/maze_game)
+    Generate a random maze, and solve it by pressing a key.
