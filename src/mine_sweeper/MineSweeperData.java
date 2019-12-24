@@ -123,4 +123,19 @@ public class MineSweeperData {
                     }
             }
     }
+
+    public void floodFill(int x, int y) {
+        if (!inArea(x, y) || isMine(x, y))
+            throw new IllegalArgumentException("Invalid position");
+
+        open[x][y] = true;
+
+        if (numbers[x][y] > 0)
+            return;
+
+        for (int i = x - 1; i <= x + 1; i++)
+            for (int j = y - 1; j <= y + 1; j++)
+                if (inArea(i, j) && !open[i][j] && !mines[i][j])
+                    floodFill(i, j);
+    }
 }

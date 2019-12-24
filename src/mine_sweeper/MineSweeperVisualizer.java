@@ -42,7 +42,11 @@ public class MineSweeperVisualizer {
     public void setData(boolean isLeftClicked, int x, int y) {
         if (data.inArea(x, y)) {
             if (isLeftClicked)
-                data.open[x][y] = true;
+                if (data.isMine(x, y))
+                    // game over
+                    data.open[x][y] = true;
+                else
+                    data.floodFill(x, y);
             else
                 data.flags[x][y] = !data.flags[x][y];
         }
@@ -74,8 +78,8 @@ public class MineSweeperVisualizer {
 
     public static void main(String[] args) {
         int N = 20;
-        int M = 20;
-        int mineNumber = 20;
+        int M = 30;
+        int mineNumber = 80;
         new MineSweeperVisualizer(N, M, mineNumber);
     }
 
