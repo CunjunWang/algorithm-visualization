@@ -43,7 +43,7 @@ public class MineSweeperVisualizer {
     public static void main(String[] args) {
         int N = 20;
         int M = 20;
-        int mineNumber = 1;
+        int mineNumber = 50;
         new MineSweeperVisualizer(N, M, mineNumber);
     }
 

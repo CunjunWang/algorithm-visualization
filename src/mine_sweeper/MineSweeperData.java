@@ -42,7 +42,7 @@ public class MineSweeperData {
                 mines[i][j] = false;
             }
 
-        mines[0][0] = true;
+        generateMines(mineNumber);
     }
 
     public int getN() {
@@ -62,5 +62,29 @@ public class MineSweeperData {
 
     public boolean inArea(int x, int y) {
         return x >= 0 && x < N && y >= 0 && y < M;
+    }
+
+    private void generateMines(int mineNumber) {
+        for (int i = 0; i < mineNumber; i++) {
+            int x = i / M;
+            int y = i % M;
+            mines[x][y] = true;
+        }
+
+        for (int i = 0; i < mineNumber; i++) {
+            int x1 = i / M;
+            int y1 = i % M;
+
+            int x2 = (int) (Math.random() * N);
+            int y2 = (int) (Math.random() * M);
+
+            swap(x1, y1, x2, y2);
+        }
+    }
+
+    private void swap(int x1, int y1, int x2, int y2) {
+        boolean t = mines[x1][y1];
+        mines[x1][y1] = mines[x2][y2];
+        mines[x2][y2] = t;
     }
 }
