@@ -6,7 +6,7 @@
     - [Monte Carlo](src/random_simulation/monte_carlo)
         - [Estimate Pi value](src/random_simulation/monte_carlo/find_pi)
         - [Monty Hall Problem](src/random_simulation/monte_carlo/monty_hall)
-        - [Fisher Yates](src/random_simulation/fisher_yates)
+    - [Fisher Yates](src/random_simulation/fisher_yates)
 - Sorting Algorithms
     - [Selection Sort](src/sortings/selection_sort)
     - [Insertion Sort](src/sortings/insertion_sort)

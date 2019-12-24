@@ -71,14 +71,15 @@ public class MineSweeperData {
             mines[x][y] = true;
         }
 
-        for (int i = 0; i < mineNumber; i++) {
-            int x1 = i / M;
-            int y1 = i % M;
+        for (int i = N * M - 1; i >= 0; i--) {
+            int iX = i / M;
+            int iY = i % M;
 
-            int x2 = (int) (Math.random() * N);
-            int y2 = (int) (Math.random() * M);
+            int randNumber = (int) (Math.random() * (i + 1));
+            int randX = randNumber / M;
+            int randY = randNumber % M;
 
-            swap(x1, y1, x2, y2);
+            swap(iX, iY, randX, randY);
         }
     }
 

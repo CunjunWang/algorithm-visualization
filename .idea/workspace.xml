@@ -246,7 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FisherYates">
+  <component name="RunManager" selected="Application.MineSweeperVisualizer">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -347,9 +347,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MineSweeperVisualizer" />
         <item itemvalue="Application.FisherYates" />
         <item itemvalue="Application.NaiveShuffle" />
-        <item itemvalue="Application.MineSweeperVisualizer" />
         <item itemvalue="Application.MazeGameVisualizer" />
         <item itemvalue="Application.RandomMazeGeneratorVisualizer" />
       </list>
