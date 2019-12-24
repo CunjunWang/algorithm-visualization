@@ -69,10 +69,17 @@ public class MineSweeperFrame extends JFrame {
 
             for (int i = 0; i < data.getN(); i++)
                 for (int j = 0; j < data.getM(); j++) {
-                    if (data.isMine(i, j))
-                        AlgorithmVisualizationHelper.putImage(g2d, j * w, i * h, MineSweeperData.MINE_IMG_URL);
-                    else
-                        AlgorithmVisualizationHelper.putImage(g2d, j * w, i * h, MineSweeperData.BLOCK_IMG_URL);
+                    if (data.open[i][j])
+                        if (data.isMine(i, j))
+                            AlgorithmVisualizationHelper.putImage(g2d, j * w, i * h, MineSweeperData.MINE_IMG_URL);
+                        else
+                            AlgorithmVisualizationHelper.putImage(g2d, j * w, i * h, MineSweeperData.numberImgUrl(data.getNumber(i, j)));
+                    else {
+                        if (data.flags[i][j])
+                            AlgorithmVisualizationHelper.putImage(g2d, j * w, i * h, MineSweeperData.FLAG_IMG_URL);
+                        else
+                            AlgorithmVisualizationHelper.putImage(g2d, j * w, i * h, MineSweeperData.BLOCK_IMG_URL);
+                    }
                 }
         }
 

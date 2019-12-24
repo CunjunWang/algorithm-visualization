@@ -15,16 +15,15 @@ public class MineSweeperData {
 
     public static final String MINE_IMG_URL = URL_PREFIX + "mine" + URL_SUFFIX;
 
-    public static String numberImgUrl(int num) {
-        if (num < 0 || num > 8)
-            throw new IllegalArgumentException("Invalid mine number");
-
-        return URL_PREFIX + num + URL_SUFFIX;
-    }
-
     private int N, M;
 
     private boolean[][] mines;
+
+    private int[][] numbers;
+
+    public boolean[][] open;
+
+    public boolean[][] flags;
 
     public MineSweeperData(int N, int M, int mineNumber) {
         if (N <= 0 || M <= 0)
@@ -36,13 +35,20 @@ public class MineSweeperData {
         this.N = N;
         this.M = M;
         mines = new boolean[N][M];
+        open = new boolean[N][M];
+        flags = new boolean[N][M];
+        numbers = new int[N][M];
 
         for (int i = 0; i < N; i++)
             for (int j = 0; j < M; j++) {
                 mines[i][j] = false;
+                open[i][j] = false;
+                flags[i][j] = false;
+                numbers[i][j] = 0;
             }
 
         generateMines(mineNumber);
+        calculateNumbers();
     }
 
     public int getN() {
@@ -51,6 +57,20 @@ public class MineSweeperData {
 
     public int getM() {
         return M;
+    }
+
+    public int getNumber(int x, int y) {
+        if (!inArea(x, y))
+            throw new IllegalArgumentException("Invalid position");
+
+        return numbers[x][y];
+    }
+
+    public static String numberImgUrl(int num) {
+        if (num < 0 || num > 8)
+            throw new IllegalArgumentException("Invalid mine number");
+
+        return URL_PREFIX + num + URL_SUFFIX;
     }
 
     public boolean isMine(int x, int y) {
@@ -87,5 +107,20 @@ public class MineSweeperData {
         boolean t = mines[x1][y1];
         mines[x1][y1] = mines[x2][y2];
         mines[x2][y2] = t;
+    }
+
+    private void calculateNumbers() {
+        for (int i = 0; i < N; i++)
+            for (int j = 0; j < M; j++) {
+                if (mines[i][j])
+                    numbers[i][j] = -1;
+
+                numbers[i][j] = 0;
+                for (int ii = i - 1; ii <= i + 1; ii++)
+                    for (int jj = j - 1; jj <= j + 1; jj++) {
+                        if (inArea(ii, jj) && mines[ii][jj])
+                            numbers[i][j]++;
+                    }
+            }
     }
 }
