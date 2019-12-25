@@ -67,4 +67,25 @@ public class Board {
         for (int i = 0; i < N; i++)
             System.out.println(String.valueOf(data[i]));
     }
+
+    public boolean win() {
+        for (int i = 0; i < N; i++)
+            for (int j = 0; j < M; j++)
+                if (data[i][j] != EMPTY)
+                    return false;
+        return true;
+    }
+
+    public void swap(int x1, int y1, int x2, int y2) {
+        if (!inArea(x1, y1) || !inArea(x2, y2))
+            throw new IllegalArgumentException("Invalid input position");
+
+        char t = data[x1][y1];
+        data[x1][y1] = data[x2][y2];
+        data[x2][y2] = t;
+    }
+
+    public void run() {
+
+    }
 }

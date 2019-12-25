@@ -31,6 +31,14 @@ public class MoveBoxVisualizer {
     }
 
     public void run() {
+        setData();
+
+        if (!data.solve())
+            System.out.println("There is no solution for the board");
+
+    }
+
+    private void setData() {
         frame.render(data);
         AlgorithmVisualizationHelper.pause(DELAY);
     }

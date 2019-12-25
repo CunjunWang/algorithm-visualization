@@ -20,6 +20,8 @@ public class MoveBoxData {
 
     private int N, M;
 
+    private static int dir[][] = {{1, 0}, {0, 1}, {0, -1}};
+
     public MoveBoxData(String filename) {
         if (filename == null)
             throw new IllegalArgumentException("Filename cannot be null");
@@ -73,6 +75,43 @@ public class MoveBoxData {
 
     public boolean inArea(int x, int y) {
         return x >= 0 && x < N && y >= 0 && y < M;
+    }
+
+    public boolean solve() {
+        if (maxTurn < 0)
+            return false;
+
+        return solve(initialBoard, maxTurn);
+    }
+
+    private boolean solve(Board board, int turn) {
+        if (board == null || turn < 0)
+            throw new IllegalArgumentException("Invalid input");
+
+        if (turn == 0)
+            return board.win();
+
+        if (board.win())
+            return true;
+
+        // search all available moves
+        for (int x = 0; x < N; x++)
+            for (int y = 0; y < M; y++)
+                if (board.getData(x, y) != Board.EMPTY) {
+                    for (int d = 0; d < dir.length; d++) {
+                        int nextX = x + dir[d][0];
+                        int nextY = y + dir[d][1];
+                        if (inArea(nextX, nextY)) {
+                            Board nextBoard = new Board(board);
+                            nextBoard.swap(x, y, nextX, nextY);
+                            nextBoard.run();
+                            if (solve(nextBoard, turn - 1))
+                                return true;
+                        }
+                    }
+                }
+
+        return false;
     }
 
 }

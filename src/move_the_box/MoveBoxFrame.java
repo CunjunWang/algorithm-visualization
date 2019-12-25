@@ -106,7 +106,6 @@ public class MoveBoxFrame extends JFrame {
                         AlgorithmVisualizationHelper.fillRectangle(g2d, j * h + 2, i * w + 2, w - 4, h - 4);
                     }
                 }
-
         }
 
         @Override
