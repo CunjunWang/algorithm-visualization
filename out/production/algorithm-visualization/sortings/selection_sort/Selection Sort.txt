@@ -1,0 +1,2 @@
+Selection Sort: O(n^2)
+Minimum swap time (n time swap operation)

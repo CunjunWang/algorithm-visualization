@@ -31,3 +31,9 @@
     Generate a random maze, and solve it by pressing space.
 - [Mine Sweeper](src/mine_sweeper)
     Mine sweeper game.
+- [Move the Box](src/move_the_box)
+- Fractals
+    - [Vicsek](src/fractal/vicsek)
+    - [Sierpinski](src/fractal/sierpinski)
+    - [Koch](src/fractal/koch)
+    - [Fractal Tree](src/fractal/fractal_tree)
