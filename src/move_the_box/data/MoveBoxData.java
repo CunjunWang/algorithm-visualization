@@ -16,6 +16,8 @@ public class MoveBoxData {
 
     private Board initialBoard;
 
+    private Board currentBoard;
+
     private int N, M;
 
     public MoveBoxData(String filename) {
@@ -47,6 +49,8 @@ public class MoveBoxData {
 
             initialBoard.print();
 
+            currentBoard = new Board(initialBoard);
+
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
@@ -61,6 +65,10 @@ public class MoveBoxData {
 
     public int getM() {
         return M;
+    }
+
+    public Board getCurrentBoard() {
+        return currentBoard;
     }
 
     public boolean inArea(int x, int y) {

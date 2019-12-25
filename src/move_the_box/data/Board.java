@@ -9,6 +9,8 @@ public class Board {
 
     private char[][] data;
 
+    public static char EMPTY = '.';
+
     public Board(String[] lines) {
         if (lines == null)
             throw new IllegalArgumentException("Lines cannot be null");
@@ -30,12 +32,31 @@ public class Board {
         }
     }
 
+    public Board(Board board) {
+        if (board == null)
+            throw new IllegalArgumentException("Invalid input data");
+
+        this.N = board.getN();
+        this.M = board.getM();
+        this.data = new char[N][M];
+        for (int i = 0; i < N; i++)
+            for (int j = 0; j < M; j++)
+                this.data[i][j] = board.data[i][j];
+    }
+
     public int getN() {
         return N;
     }
 
     public int getM() {
         return M;
+    }
+
+    public char getData(int x, int y) {
+        if (!inArea(x, y))
+            throw new IllegalArgumentException("Invalid input position");
+
+        return data[x][y];
     }
 
     public boolean inArea(int x, int y) {

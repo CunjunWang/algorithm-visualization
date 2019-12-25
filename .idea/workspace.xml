@@ -34,11 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/move_the_box/MoveBoxData.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/move_the_box/MoveBoxVisualizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+            <state relative-caret-position="271">
+              <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,11 +46,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/move_the_box/Board.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/move_the_box/MoveBoxFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="46" column="56" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
+            <state relative-caret-position="781">
+              <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/move_the_box/data/Board.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/move_the_box/data/MoveBoxData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="66" column="17" lean-forward="true" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,11 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sortings/heap_sort/HeapSortFrame.java" />
-        <option value="$PROJECT_DIR$/src/sortings/heap_sort/HeapSortVisualizer.java" />
-        <option value="$PROJECT_DIR$/src/maze_solver/MazeSolverFrame.java" />
-        <option value="$PROJECT_DIR$/src/maze_solver/Main.java" />
-        <option value="$PROJECT_DIR$/src/maze_solver/MazeSolverVisualizer.java" />
         <option value="$PROJECT_DIR$/src/maze_solver/MazeData.java" />
         <option value="$PROJECT_DIR$/src/maze_solver/maze.txt" />
         <option value="$PROJECT_DIR$/src/maze_solver/data/MazeSolverVisualizer.java" />
@@ -121,6 +140,11 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/move_the_box/MoveBoxData.java" />
         <option value="$PROJECT_DIR$/src/move_the_box/Board.java" />
+        <option value="$PROJECT_DIR$/src/move_the_box/levels/boston_09.txt" />
+        <option value="$PROJECT_DIR$/src/move_the_box/MoveBoxVisualizer.java" />
+        <option value="$PROJECT_DIR$/src/move_the_box/data/MoveBoxData.java" />
+        <option value="$PROJECT_DIR$/src/move_the_box/data/Board.java" />
+        <option value="$PROJECT_DIR$/src/move_the_box/MoveBoxFrame.java" />
       </list>
     </option>
   </component>
@@ -164,6 +188,13 @@
               <item name="algorithm-visualization" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="move_the_box" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm-visualization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm-visualization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="move_the_box" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -218,7 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MineSweeperVisualizer">
+  <component name="RunManager" selected="Application.MoveBoxVisualizer">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -267,13 +298,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NaiveShuffle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="random_simulation.fisher_yates.NaiveShuffle" />
+    <configuration name="MoveBoxVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="move_the_box.MoveBoxVisualizer" />
       <module name="algorithm-visualization" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="random_simulation.fisher_yates.*" />
+          <option name="PATTERN" value="move_the_box.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -281,13 +312,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomMazeGeneratorVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="maze_generator.random.RandomMazeGeneratorVisualizer" />
+    <configuration name="NaiveShuffle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="random_simulation.fisher_yates.NaiveShuffle" />
       <module name="algorithm-visualization" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="maze_generator.random.*" />
+          <option name="PATTERN" value="random_simulation.fisher_yates.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -319,11 +350,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MoveBoxVisualizer" />
         <item itemvalue="Application.MineSweeperVisualizer" />
         <item itemvalue="Application.FisherYates" />
         <item itemvalue="Application.NaiveShuffle" />
         <item itemvalue="Application.MazeGameVisualizer" />
-        <item itemvalue="Application.RandomMazeGeneratorVisualizer" />
       </list>
     </recent_temporary>
   </component>
@@ -351,12 +382,12 @@
       <workItem from="1577121503756" duration="2255000" />
       <workItem from="1577123794808" duration="3347000" />
       <workItem from="1577201566296" duration="6575000" />
-      <workItem from="1577285512059" duration="697000" />
+      <workItem from="1577285512059" duration="2060000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45574000" />
+    <option name="totallyTimeSpent" value="46937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="693" y="24" width="987" height="951" extended-state="0" />
@@ -371,12 +402,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32858837" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32858837" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33096084" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33096084" />
       <window_info anchor="bottom" id="Docker" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32858837" />
@@ -403,30 +434,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sortings/insertion_sort/InsertionSortData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sortings/quick_sort/randomized_quick_sort/QuickSortData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sortings/quick_sort/randomized_quick_sort/QuickSortVisualizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-680">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sortings/quick_sort/randomized_quick_sort/QuickSortFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="478">
@@ -742,30 +749,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/move_the_box/levels/boston_09.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/mine_sweeper/MineSweeperFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
+        <state>
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/move_the_box/MoveBoxData.java">
+    <entry file="file://$PROJECT_DIR$/src/move_the_box/data/MoveBoxData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        <state relative-caret-position="268">
+          <caret line="66" column="17" lean-forward="true" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/move_the_box/Board.java">
+    <entry file="file://$PROJECT_DIR$/src/move_the_box/data/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="46" column="56" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
+        <state relative-caret-position="187">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/move_the_box/MoveBoxFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="781">
+          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/move_the_box/MoveBoxVisualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
