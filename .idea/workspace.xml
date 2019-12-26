@@ -34,10 +34,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/move_the_box/MoveBoxVisualizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
+            <state relative-caret-position="140">
               <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -47,10 +47,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/move_the_box/data/MoveBoxData.java">
+        <entry file="file://$PROJECT_DIR$/src/move_the_box/MoveBoxFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1039">
-              <caret line="76" column="45" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
+            <state relative-caret-position="325">
+              <caret line="112" column="9" lean-forward="true" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,11 +58,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/move_the_box/data/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1178">
-              <caret line="139" column="22" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
+            <state relative-caret-position="698">
+              <caret line="157" column="34" selection-start-line="157" selection-start-column="34" selection-end-line="157" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/move_the_box/data/MoveBoxData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="104" column="88" selection-start-line="104" selection-start-column="88" selection-end-line="104" selection-end-column="88" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,10 +141,10 @@
         <option value="$PROJECT_DIR$/src/move_the_box/MoveBoxData.java" />
         <option value="$PROJECT_DIR$/src/move_the_box/Board.java" />
         <option value="$PROJECT_DIR$/src/move_the_box/levels/boston_09.txt" />
-        <option value="$PROJECT_DIR$/src/move_the_box/MoveBoxFrame.java" />
-        <option value="$PROJECT_DIR$/src/move_the_box/data/MoveBoxData.java" />
-        <option value="$PROJECT_DIR$/src/move_the_box/data/Board.java" />
         <option value="$PROJECT_DIR$/src/move_the_box/MoveBoxVisualizer.java" />
+        <option value="$PROJECT_DIR$/src/move_the_box/data/Board.java" />
+        <option value="$PROJECT_DIR$/src/move_the_box/data/MoveBoxData.java" />
+        <option value="$PROJECT_DIR$/src/move_the_box/MoveBoxFrame.java" />
       </list>
     </option>
   </component>
@@ -145,7 +157,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="762" />
+    <option name="x" value="730" />
     <option name="y" value="23" />
     <option name="width" value="987" />
     <option name="height" value="951" />
@@ -365,15 +377,15 @@
       <workItem from="1577201566296" duration="6575000" />
       <workItem from="1577285512059" duration="3600000" />
       <workItem from="1577302676551" duration="466000" />
-      <workItem from="1577373514166" duration="549000" />
+      <workItem from="1577373514166" duration="1390000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49492000" />
+    <option name="totallyTimeSpent" value="50333000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="668" y="23" width="987" height="951" extended-state="0" />
+    <frame x="730" y="23" width="987" height="951" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973544" />
@@ -749,20 +761,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/move_the_box/MoveBoxFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/move_the_box/data/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1819">
-          <caret line="107" column="17" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="698">
+          <caret line="157" column="34" selection-start-line="157" selection-start-column="34" selection-end-line="157" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/move_the_box/MoveBoxVisualizer.java">
+    <entry file="file://$PROJECT_DIR$/src/move_the_box/MoveBoxFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        <state relative-caret-position="325">
+          <caret line="112" column="9" lean-forward="true" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -771,18 +780,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/move_the_box/data/MoveBoxData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1039">
-          <caret line="76" column="45" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
+        <state relative-caret-position="249">
+          <caret line="104" column="88" selection-start-line="104" selection-start-column="88" selection-end-line="104" selection-end-column="88" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/move_the_box/data/Board.java">
+    <entry file="file://$PROJECT_DIR$/src/move_the_box/MoveBoxVisualizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1178">
-          <caret line="139" column="22" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
+        <state relative-caret-position="140">
+          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

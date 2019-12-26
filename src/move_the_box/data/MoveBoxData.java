@@ -102,7 +102,9 @@ public class MoveBoxData {
                         int nextX = x + dir[d][0];
                         int nextY = y + dir[d][1];
                         if (inArea(nextX, nextY)) {
-                            Board nextBoard = new Board(board);
+                            String swapStep = String.format("swap (%d, %d) and (%d, %d).\n",
+                                    x, y, nextX, nextY);
+                            Board nextBoard = new Board(board, board, swapStep);
                             nextBoard.swap(x, y, nextX, nextY);
                             nextBoard.run();
                             if (solve(nextBoard, turn - 1))

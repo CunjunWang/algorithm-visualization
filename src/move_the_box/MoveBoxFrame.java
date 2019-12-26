@@ -104,6 +104,10 @@ public class MoveBoxFrame extends JFrame {
                         AlgorithmVisualizationHelper.setColor(g2d, color);
 
                         AlgorithmVisualizationHelper.fillRectangle(g2d, j * h + 2, i * w + 2, w - 4, h - 4);
+
+                        AlgorithmVisualizationHelper.setColor(g2d, AlgorithmVisualizationHelper.White);
+                        String text = String.format("(%d, %d)", i, j);
+                        AlgorithmVisualizationHelper.drawText(g2d, text, j * h + h / 2, i * w + w / 2);
                     }
                 }
         }

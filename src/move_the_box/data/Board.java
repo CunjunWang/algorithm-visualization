@@ -5,13 +5,17 @@ package move_the_box.data;
  */
 public class Board {
 
+    public static char EMPTY = '.';
+
+    private static int dir[][] = {{0, 1}, {1, 0}};
+
     private int N, M;
 
     private char[][] data;
 
-    public static char EMPTY = '.';
+    private Board preBoard = null;
 
-    private int dir[][] = {{0, 1}, {1, 0}};
+    private String swapStep = "";
 
     public Board(String[] lines) {
         if (lines == null)
@@ -34,7 +38,7 @@ public class Board {
         }
     }
 
-    public Board(Board board) {
+    public Board(Board board, Board preBoard, String swapStep) {
         if (board == null)
             throw new IllegalArgumentException("Invalid input data");
 
@@ -44,6 +48,12 @@ public class Board {
         for (int i = 0; i < N; i++)
             for (int j = 0; j < M; j++)
                 this.data[i][j] = board.data[i][j];
+        this.preBoard = preBoard;
+        this.swapStep = swapStep;
+    }
+
+    public Board(Board board) {
+        this(board, null, "");
     }
 
     public int getN() {
@@ -75,6 +85,8 @@ public class Board {
             for (int j = 0; j < M; j++)
                 if (data[i][j] != EMPTY)
                     return false;
+
+        printSteps();
         return true;
     }
 
@@ -138,6 +150,12 @@ public class Board {
                     data[x][y] = EMPTY;
 
         return matched;
+    }
+
+    private void printSteps() {
+        if (preBoard != null)
+            preBoard.printSteps();
+        System.out.print(swapStep);
     }
 
 }
