@@ -37,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/move_the_box/MoveBoxVisualizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+            <state relative-caret-position="351">
+              <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/move_the_box/data/MoveBoxData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="105" column="41" lean-forward="true" selection-start-line="105" selection-start-column="41" selection-end-line="105" selection-end-column="41" />
+            <state relative-caret-position="1039">
+              <caret line="76" column="45" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,20 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/move_the_box/data/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="79" column="24" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/move_the_box/MoveBoxFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1819">
-              <caret line="107" column="17" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1178">
+              <caret line="139" column="22" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -142,9 +130,9 @@
         <option value="$PROJECT_DIR$/src/move_the_box/Board.java" />
         <option value="$PROJECT_DIR$/src/move_the_box/levels/boston_09.txt" />
         <option value="$PROJECT_DIR$/src/move_the_box/MoveBoxFrame.java" />
-        <option value="$PROJECT_DIR$/src/move_the_box/MoveBoxVisualizer.java" />
         <option value="$PROJECT_DIR$/src/move_the_box/data/MoveBoxData.java" />
         <option value="$PROJECT_DIR$/src/move_the_box/data/Board.java" />
+        <option value="$PROJECT_DIR$/src/move_the_box/MoveBoxVisualizer.java" />
       </list>
     </option>
   </component>
@@ -157,8 +145,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="693" />
-    <option name="y" value="24" />
+    <option name="x" value="762" />
+    <option name="y" value="23" />
     <option name="width" value="987" />
     <option name="height" value="951" />
   </component>
@@ -169,8 +157,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,17 +175,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="move_the_box" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="algorithm-visualization" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm-visualization" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="move_the_box" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -382,18 +363,20 @@
       <workItem from="1577121503756" duration="2255000" />
       <workItem from="1577123794808" duration="3347000" />
       <workItem from="1577201566296" duration="6575000" />
-      <workItem from="1577285512059" duration="2779000" />
+      <workItem from="1577285512059" duration="3600000" />
+      <workItem from="1577302676551" duration="466000" />
+      <workItem from="1577373514166" duration="549000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47656000" />
+    <option name="totallyTimeSpent" value="49492000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="693" y="24" width="987" height="951" extended-state="0" />
+    <frame x="668" y="23" width="987" height="951" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23915344" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -402,12 +385,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32858837" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32858837" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33096084" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33096084" />
       <window_info anchor="bottom" id="Docker" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32858837" />
@@ -778,8 +761,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/move_the_box/MoveBoxVisualizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        <state relative-caret-position="351">
+          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -788,8 +771,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/move_the_box/data/MoveBoxData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="105" column="41" lean-forward="true" selection-start-line="105" selection-start-column="41" selection-end-line="105" selection-end-column="41" />
+        <state relative-caret-position="1039">
+          <caret line="76" column="45" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -798,8 +781,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/move_the_box/data/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="79" column="24" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
+        <state relative-caret-position="1178">
+          <caret line="139" column="22" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
         </state>
       </provider>
     </entry>

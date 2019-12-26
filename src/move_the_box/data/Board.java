@@ -11,6 +11,8 @@ public class Board {
 
     public static char EMPTY = '.';
 
+    private int dir[][] = {{0, 1}, {1, 0}};
+
     public Board(String[] lines) {
         if (lines == null)
             throw new IllegalArgumentException("Lines cannot be null");
@@ -86,6 +88,56 @@ public class Board {
     }
 
     public void run() {
+        do {
+            // drop - simulate the gravity
+            drop();
 
+            // match - eliminate 3 or more continues boxes with same color
+        } while (match());
     }
+
+    private void drop() {
+        for (int j = 0; j < M; j++) {
+            int cur = N - 1;
+            for (int i = N - 1; i >= 0; i--)
+                if (data[i][j] != EMPTY) {
+                    swap(i, j, cur, j);
+                    cur--;
+                }
+        }
+    }
+
+    private boolean match() {
+        boolean matched = false;
+        boolean[][] tag = new boolean[N][M];
+
+        for (int x = 0; x < N; x++)
+            for (int y = 0; y < M; y++)
+                if (data[x][y] != EMPTY) {
+                    for (int i = 0; i < dir.length; i++) {
+                        int nextX1 = x + dir[i][0];
+                        int nextY1 = y + dir[i][1];
+
+                        int nextX2 = nextX1 + dir[i][0];
+                        int nextY2 = nextY1 + dir[i][1];
+
+                        if (inArea(nextX1, nextY1) && inArea(nextX2, nextY2) &&
+                                data[nextX1][nextY1] == data[x][y] &&
+                                data[nextX2][nextY2] == data[x][y]) {
+                            tag[x][y] = true;
+                            tag[nextX1][nextY1] = true;
+                            tag[nextX2][nextY2] = true;
+                            matched = true;
+                        }
+                    }
+                }
+
+        for (int x = 0; x < N; x++)
+            for (int y = 0; y < M; y++)
+                if (tag[x][y])
+                    data[x][y] = EMPTY;
+
+        return matched;
+    }
+
 }

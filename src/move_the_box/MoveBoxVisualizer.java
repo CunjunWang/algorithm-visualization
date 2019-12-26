@@ -33,8 +33,10 @@ public class MoveBoxVisualizer {
     public void run() {
         setData();
 
-        if (!data.solve())
-            System.out.println("There is no solution for the board");
+        if (data.solve())
+            System.out.println("There is a solution for the board");
+        else
+            System.out.println("There is no solution for this board");
 
     }
 
