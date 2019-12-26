@@ -20,6 +20,8 @@ public class MoveBoxData {
 
     private int N, M;
 
+    public int clickX = -1, clickY = -1;
+
     private static int dir[][] = {{1, 0}, {0, 1}, {0, -1}};
 
     public MoveBoxData(String filename) {

@@ -82,11 +82,6 @@ public class MoveBoxFrame extends JFrame {
 
             Graphics2D g2d = (Graphics2D) g;
 
-            // anti-aliased
-            RenderingHints hints = new RenderingHints(
-                    RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
-            g2d.addRenderingHints(hints);
-
             // paint
             int w = canvasWidth / data.getM();
             int h = canvasHeight / data.getN();
@@ -108,6 +103,12 @@ public class MoveBoxFrame extends JFrame {
                         AlgorithmVisualizationHelper.setColor(g2d, AlgorithmVisualizationHelper.White);
                         String text = String.format("(%d, %d)", i, j);
                         AlgorithmVisualizationHelper.drawText(g2d, text, j * h + h / 2, i * w + w / 2);
+                    }
+
+                    if (i == data.clickX && j == data.clickY) {
+                        AlgorithmVisualizationHelper.setColor(g2d, AlgorithmVisualizationHelper.LightBlue);
+                        AlgorithmVisualizationHelper.setStrokeWidth(g2d, 4);
+                        AlgorithmVisualizationHelper.strokeRectangle(g2d, j * w + 2, i * h + 2, w - 4, h - 4);
                     }
                 }
         }
