@@ -1,4 +1,4 @@
-package fractal.sierpinski;
+package fractal.sierpinski.carpet;
 
 import gui_frame.AlgorithmVisualizationHelper;
 
@@ -8,12 +8,12 @@ import java.awt.*;
 /**
  * Created by CunjunWang on 2019-12-27.
  */
-public class SierpinskiFractalFrame extends JFrame {
+public class SierpinskiCarpetFrame extends JFrame {
 
     private int canvasWidth;
     private int canvasHeight;
 
-    public SierpinskiFractalFrame(String title, int canvasWidth, int canvasHeight) {
+    public SierpinskiCarpetFrame(String title, int canvasWidth, int canvasHeight) {
         super(title);
 
         if (canvasWidth <= 0 || canvasHeight <= 0)
@@ -22,7 +22,7 @@ public class SierpinskiFractalFrame extends JFrame {
         this.canvasWidth = canvasWidth;
         this.canvasHeight = canvasHeight;
 
-        SierpinskiFractalFrame.AlgorithmCanvas canvas = new SierpinskiFractalFrame.AlgorithmCanvas();
+        SierpinskiCarpetFrame.AlgorithmCanvas canvas = new SierpinskiCarpetFrame.AlgorithmCanvas();
         // window size can be different with canvas size;
         this.setContentPane(canvas);
         pack(); // use this canvas to fill the window.
@@ -40,9 +40,9 @@ public class SierpinskiFractalFrame extends JFrame {
         return canvasHeight;
     }
 
-    private SierpinskiFractalData data;
+    private SierpinskiCarpetData data;
 
-    public void render(SierpinskiFractalData data) {
+    public void render(SierpinskiCarpetData data) {
         this.data = data;
         this.repaint();
     }
@@ -69,10 +69,10 @@ public class SierpinskiFractalFrame extends JFrame {
             g2d.addRenderingHints(hints);
 
             // paint
-            drawSierpinski(g2d, 0, 0, canvasWidth, canvasHeight, 0);
+            drawSierpinskiCarpet(g2d, 0, 0, canvasWidth, canvasHeight, 0);
         }
 
-        private void drawSierpinski(Graphics2D g2d, int x, int y, int w, int h, int d) {
+        private void drawSierpinskiCarpet(Graphics2D g2d, int x, int y, int w, int h, int d) {
 
             int w_3 = w / 3;
             int h_3 = h / 3;
@@ -92,7 +92,7 @@ public class SierpinskiFractalFrame extends JFrame {
                         AlgorithmVisualizationHelper.setColor(g2d, AlgorithmVisualizationHelper.Indigo);
                         AlgorithmVisualizationHelper.fillRectangle(g2d, x + w_3, y + h_3, w_3, h_3);
                     } else
-                        drawSierpinski(g2d, x + i * w_3, y + j * h_3, w_3, h_3, d + 1);
+                        drawSierpinskiCarpet(g2d, x + i * w_3, y + j * h_3, w_3, h_3, d + 1);
         }
 
         @Override

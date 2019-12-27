@@ -1,4 +1,4 @@
-package fractal.sierpinski;
+package fractal.sierpinski.carpet;
 
 import gui_frame.AlgorithmVisualizationHelper;
 
@@ -9,22 +9,22 @@ import java.awt.event.KeyEvent;
 /**
  * Created by CunjunWang on 2019-12-27.
  */
-public class SierpinskiFractalVisualizer {
+public class SierpinskiCarpetVisualizer {
 
-    private SierpinskiFractalData data;
-    private SierpinskiFractalFrame frame;
+    private SierpinskiCarpetData data;
+    private SierpinskiCarpetFrame frame;
 
     private static final int DELAY = 40;
 
-    public SierpinskiFractalVisualizer(int maxDepth) {
+    public SierpinskiCarpetVisualizer(int maxDepth) {
         if (maxDepth > 7)
             throw new IllegalArgumentException("Recursion too deep");
-        data = new SierpinskiFractalData(maxDepth);
+        data = new SierpinskiCarpetData(maxDepth);
         int sceneWidth = (int) Math.pow(3, maxDepth);
         int sceneHeight = (int) Math.pow(3, maxDepth);
 
         EventQueue.invokeLater(() -> {
-            frame = new SierpinskiFractalFrame("Sierpinski Fractal", sceneWidth, sceneHeight);
+            frame = new SierpinskiCarpetFrame("Sierpinski Carpet Fractal", sceneWidth, sceneHeight);
             frame.addKeyListener(new SierpinskiKeyListener());
             new Thread(this::run).start();
         });
@@ -53,7 +53,7 @@ public class SierpinskiFractalVisualizer {
 
     public static void main(String[] args) {
         int maxDepth = 6;
-        new SierpinskiFractalVisualizer(maxDepth);
+        new SierpinskiCarpetVisualizer(maxDepth);
     }
 
 }

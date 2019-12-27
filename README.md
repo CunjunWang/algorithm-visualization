@@ -33,7 +33,10 @@
     Mine sweeper game.
 - [Move the Box](src/move_the_box)
 - Fractals
+    - [Concentric Circle](src/fractal/circle)
     - [Vicsek](src/fractal/vicsek)
-    - [Sierpinski](src/fractal/sierpinski)
+    - Sierpinski
+        - [Carpet](src/fractal/sierpinski/carpet)
+        - [Triangle](src/fractal/sierpinski/triangle)
     - [Koch](src/fractal/koch)
     - [Fractal Tree](src/fractal/fractal_tree)
