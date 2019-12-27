@@ -35,19 +35,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fractal/circle/CircleData.java">
+        <entry file="file://$PROJECT_DIR$/src/fractal/vicsek/VicsekFractalFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/fractal/circle/CircleVisualizer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-74">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="147">
+              <caret line="89" column="12" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fractal/circle/CircleFrame.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/fractal/vicsek/VicsekFractalVisualizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1411">
-              <caret line="83" column="12" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
+            <state relative-caret-position="334">
+              <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,9 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/maze_solver/dfs/recursive/DFSMazeSolverVisualizer.java" />
-        <option value="$PROJECT_DIR$/src/maze_solver/dfs/iterative/RecursiveDFSMazeSolverVisualizer.java" />
-        <option value="$PROJECT_DIR$/src/maze_solver/dfs/recursive/RecursiveDFSMazeSolverVisualizer.java" />
         <option value="$PROJECT_DIR$/src/maze_solver/dfs/iterative/Point.java" />
         <option value="$PROJECT_DIR$/src/maze_solver/data/MazeData.java" />
         <option value="$PROJECT_DIR$/src/maze_solver/dfs/iterative/IterativeDFSMazeSolverVisualizer.java" />
@@ -133,6 +121,9 @@
         <option value="$PROJECT_DIR$/src/fractal/circle/CircleData.java" />
         <option value="$PROJECT_DIR$/src/fractal/circle/CircleVisualizer.java" />
         <option value="$PROJECT_DIR$/src/fractal/circle/CircleFrame.java" />
+        <option value="$PROJECT_DIR$/src/fractal/vicsek/VicsekFractalData.java" />
+        <option value="$PROJECT_DIR$/src/fractal/vicsek/VicsekFractalFrame.java" />
+        <option value="$PROJECT_DIR$/src/fractal/vicsek/VicsekFractalVisualizer.java" />
       </list>
     </option>
   </component>
@@ -182,6 +173,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="fractal" type="462c0819:PsiDirectoryNode" />
               <item name="circle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm-visualization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm-visualization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="fractal" type="462c0819:PsiDirectoryNode" />
+              <item name="vicsek" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm-visualization" type="b2602c69:ProjectViewProjectNode" />
@@ -243,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CircleVisualizer">
+  <component name="RunManager" selected="Application.VicsekFractalVisualizer">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -306,13 +304,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NaiveShuffle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="random_simulation.fisher_yates.NaiveShuffle" />
+    <configuration name="VicsekFractalVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fractal.vicsek.VicsekFractalVisualizer" />
       <module name="algorithm-visualization" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="random_simulation.fisher_yates.*" />
+          <option name="PATTERN" value="fractal.vicsek.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -344,11 +342,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VicsekFractalVisualizer" />
         <item itemvalue="Application.CircleVisualizer" />
         <item itemvalue="Application.MoveBoxVisualizer" />
         <item itemvalue="Application.MineSweeperVisualizer" />
         <item itemvalue="Application.FisherYates" />
-        <item itemvalue="Application.NaiveShuffle" />
       </list>
     </recent_temporary>
   </component>
@@ -379,12 +377,12 @@
       <workItem from="1577285512059" duration="3600000" />
       <workItem from="1577302676551" duration="466000" />
       <workItem from="1577373514166" duration="2219000" />
-      <workItem from="1577459491530" duration="846000" />
+      <workItem from="1577459491530" duration="1544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52008000" />
+    <option name="totallyTimeSpent" value="52706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="693" y="23" width="987" height="951" extended-state="0" />
@@ -431,25 +429,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sortings/quick_sort/three_way_quick_sort/ThreeWayQuickSortFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1110" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sortings/quick_sort/three_way_quick_sort/ThreeWayQuickSortVisualizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="59" column="19" lean-forward="true" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sortings/heap_sort/HeapSortVisualizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sortings/heap_sort/HeapSortData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -756,13 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fractal/circle/CircleData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/move_the_box/MoveBoxFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
@@ -783,20 +755,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/fractal/circle/CircleData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/fractal/circle/CircleFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" column="12" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
+        <state relative-caret-position="436">
+          <caret line="93" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="93" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/fractal/vicsek/VicsekFractalData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/fractal/circle/CircleVisualizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-74">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        <state relative-caret-position="283">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fractal/vicsek/VicsekFractalFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="89" column="12" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fractal/vicsek/VicsekFractalVisualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
