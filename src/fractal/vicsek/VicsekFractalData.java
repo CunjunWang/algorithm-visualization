@@ -15,4 +15,9 @@ public class VicsekFractalData {
         return depth;
     }
 
+    public void setDepth(int depth) {
+        if (depth >= 0)
+            this.depth = depth;
+    }
+
 }
